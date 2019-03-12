@@ -1,7 +1,13 @@
 import React, { Component } from "react";
+import "../commonSyles.css";
+import "./Footer.Component.css";
 
 export default class Footer extends Component {
   render() {
-    return <div>This is the footer</div>;
+    return (
+      <div className="flex-container footer-container">
+        <span>Copyright 2017</span>
+      </div>
+    );
   }
 }

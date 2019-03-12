@@ -1,6 +1,5 @@
-.header-container {
-  height: 30px;
+.main-container {
+  height: 100%;
   justify-content: space-between;
-  align-items: center;
   padding: 0 10px 0 10px;
 }

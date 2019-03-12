@@ -1,0 +1,16 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-align-left {
+  align-items: left;
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+.flex-align-right {
+  align-items: right;
+}
