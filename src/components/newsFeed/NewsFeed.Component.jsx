@@ -14,14 +14,12 @@ export default class NewsFeed extends Component {
 
   componentDidMount() {
     getPostsData().then(response => this.setState({ postData: response.data }));
-    // this.setState({ postData: getPostsData() });
   }
 
   render() {
     const { postData } = this.state;
-    console.log(postData);
     return (
-      <div className="flex-align-center">
+      <div className="newsFeed-width">
         <p>This is news feed</p>
         {createPost(postData)}
       </div>
@@ -32,7 +30,7 @@ export default class NewsFeed extends Component {
 const createPost = postArray => (
   <>
     {postArray.map(post => (
-      <PostCard postDetails={post} />
+      <PostCard key={post.id} postDetails={post} />
     ))}
   </>
 );

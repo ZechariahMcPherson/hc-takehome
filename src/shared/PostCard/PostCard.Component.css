@@ -1,11 +1,107 @@
+.postCard-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
 .postCard-header {
-  height: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  height: 40px;
+  border-bottom: 1px solid darkgray;
+  padding: 5px;
 }
 
 .postCard-body {
-  height: 70px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px;
+  text-align: initial;
 }
 
 .postCard-footer {
-  height: 15px;
+  display: flex;
+  align-content: center;
+  height: 30px;
+  border-top: 1px solid darkgray;
+  padding: 5px;
+}
+
+.profile-pic {
+  padding: 10px 16px 0px 16px;
+  border: 1px solid gray;
+  border-radius: 25px;
+  margin-right: 30px;
+}
+
+.username {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.full-name {
+  font-size: 10px;
+  align-items: flex-end;
+}
+
+.poster-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.post-option {
+  padding-right: 10px;
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.post-body-time-created {
+  margin: 5px 0px;
+
+  font-size: 10px;
+}
+
+.post-body-title {
+  margin: 5px 0px;
+  color: blue;
+  font-weight: 500;
+}
+
+.post-body-content {
+  margin: 5px 0px;
+  font-size: 12px;
+}
+
+.tag {
+  background-color: blue;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: 900;
+  padding: 3px;
+  margin: 0px 4px 5px 0px;
+}
+
+.tag-container {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.footer-buttons {
+  cursor: pointer;
+  height: 100%;
+  text-align: center;
+  color: blue;
+  border: none;
+  font-weight: 500;
+  font-size: 15px;
+  margin: 2px 5px;
 }
