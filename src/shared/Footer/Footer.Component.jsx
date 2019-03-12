@@ -6,7 +6,7 @@ export default class Footer extends Component {
   render() {
     return (
       <div className="flex-container footer-container">
-        <span>Copyright 2017</span>
+        <span>Copyright 2019</span>
       </div>
     );
   }

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "../../sharedComponents/commonSyles.css";
+import "../../shared/commonSyles.css";
 
-export default class newsFeed extends Component {
+export default class NewsFeed extends Component {
   render() {
     return (
       <div className="flex-align-center">

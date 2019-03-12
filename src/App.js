@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "./App.css";
 
-import Header from "./sharedComponents/Header/Header.Component";
-import Main from "./sharedComponents/Main/Main.Component";
-import Footer from "./sharedComponents/Footer/Footer.Component";
+import Header from "./shared/Header/Header.Component";
+import Main from "./shared/Main/Main.Component";
+import Footer from "./shared/Footer/Footer.Component";
 
 class App extends Component {
   render() {

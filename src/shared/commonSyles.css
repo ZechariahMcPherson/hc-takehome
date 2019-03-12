@@ -14,3 +14,7 @@
 .flex-align-right {
   align-items: right;
 }
+
+.sidebar-width {
+  width: 20vw;
+}

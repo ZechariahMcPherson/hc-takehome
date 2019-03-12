@@ -1,12 +1,19 @@
 import React, { Component } from "react";
-import "../../sharedComponents/commonSyles.css";
+import "../../shared/commonSyles.css";
 
-export default class leftSidebar extends Component {
+// import PropTypes from "prop-types";
+
+export default class LeftSidebar extends Component {
   render() {
     return (
-      <div className="flex-align-left">
+      <div className="flex-align-left sidebar-width">
         <p>This is left sidebar</p>
       </div>
     );
   }
 }
+
+// leftSidebar.PropTypes = {
+
+//   width: PropTypes.
+// };

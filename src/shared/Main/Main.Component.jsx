@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import "../commonSyles.css";
 import "./Main.Component.css";
 
-import LeftSidebar from "../../components/leftSidebar/LeftSidebar.Component";
-import NewsFeed from "../../components/newsFeed/NewsFeed.Component";
-import RightSidebar from "../../components/rightSidebar/RightSidebar.Component";
+import LeftSidebar from "../../components/LeftSidebar/LeftSidebar.Component";
+import NewsFeed from "../../components/NewsFeed/NewsFeed.Component";
+import RightSidebar from "../../components/RightSidebar/RightSidebar.Component";
 
 export default class Main extends Component {
   render() {
