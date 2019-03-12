@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "../commonSyles.css";
 import "./Main.Component.css";
 
 import LeftSidebar from "../../components/LeftSidebar/LeftSidebar.Component";

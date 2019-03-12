@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import "../commonSyles.css";
 import "./PostCard.Component.css";
 
 export default class PostCard extends Component {

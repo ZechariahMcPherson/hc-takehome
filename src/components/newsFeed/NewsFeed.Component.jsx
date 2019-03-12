@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "../../shared/commonSyles.css";
 import { getPostsData } from "../../shared/Data/Data";
 import PostCard from "../../shared/PostCard/PostCard.Component";
+import WritePost from "../WritePost/WritePost.Component";
 
 export default class NewsFeed extends Component {
   constructor(props) {
@@ -20,7 +20,7 @@ export default class NewsFeed extends Component {
     const { postData } = this.state;
     return (
       <div className="newsFeed-width">
-        <p>This is news feed</p>
+        <WritePost />
         {createPost(postData)}
       </div>
     );

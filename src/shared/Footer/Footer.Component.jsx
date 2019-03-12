@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "../commonSyles.css";
 import "./Footer.Component.css";
 
 export default class Footer extends Component {

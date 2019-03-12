@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "../../shared/commonSyles.css";
 
 // import PropTypes from "prop-types";
 
