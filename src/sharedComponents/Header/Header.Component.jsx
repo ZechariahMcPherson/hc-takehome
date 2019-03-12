@@ -1,10 +1,12 @@
 import React, { Component } from "react";
+import "./Header.Component.css";
 
 export default class Header extends Component {
   render() {
     return (
-      <div>
-        <h1>This is a Header</h1>
+      <div className="flex-container">
+        <span className="flex-align-left">BootsBook</span>
+        <span className="flex-align-right">Search</span>
       </div>
     );
   }
