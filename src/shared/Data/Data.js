@@ -38,6 +38,28 @@ const userData = {
     "Developer of web applications, JavaScript, PHP, Java, Python, Ruby, Java, Node.js, etc."
 };
 
+/*right side bar card content*/
+const rightSidebarCardData = [
+  {
+    id: 5512312,
+    createdAt: 15523123123,
+    title: "Card title",
+    subtitle: "Card subtitle",
+    body:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam omnis nihil, aliquam est, voluptates officiis iure soluta alias vel odit, placeat reiciendis ut libero! Quas aliquid natus cumque quae repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, excepturi. Doloremque, reprehenderit! Quos in maiores, soluta doloremque molestiae reiciendis libero expedita assumenda fuga quae. Consectetur id molestias itaque facere? Hic!",
+    links: ["Card link", "Another link"]
+  },
+  {
+    id: 5512312,
+    createdAt: 15523123123,
+    title: "Card title",
+    subtitle: "Card subtitle",
+    body:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam omnis nihil, aliquam est, voluptates officiis iure soluta alias vel odit, placeat reiciendis ut libero! Quas aliquid natus cumque quae repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, excepturi. Doloremque, reprehenderit! Quos in maiores, soluta doloremque molestiae reiciendis libero expedita assumenda fuga quae. Consectetur id molestias itaque facere? Hic!",
+    links: ["Card link", "Another link"]
+  }
+];
+
 export function getPostsData() {
   return new Promise(function(resolve, reject) {
     setTimeout(() => {
@@ -51,5 +73,13 @@ export function getUserData() {
     setTimeout(() => {
       resolve({ data: userData });
     }, 400);
+  });
+}
+
+export function getRightSidebarCardData() {
+  return new Promise(function(resolve, reject) {
+    setTimeout(() => {
+      resolve({ data: rightSidebarCardData });
+    }, 200);
   });
 }

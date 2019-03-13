@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import "./PostCard.Component.css";
 
+const FOOTER_BUTTONS = ["Like", "Comment", "Share"];
+
 export default class PostCard extends Component {
   render() {
     return (
@@ -31,9 +33,7 @@ export default class PostCard extends Component {
             {createTag(this.props.postDetails.tags)}
           </div>
         </div>
-        <div className="postCard-footer">
-          {createButton(["Like", "Comment", "Share"])}
-        </div>
+        <div className="postCard-footer">{createButton(FOOTER_BUTTONS)}</div>
       </div>
     );
   }
