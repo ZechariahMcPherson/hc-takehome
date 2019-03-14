@@ -35,7 +35,8 @@ const userData = {
   followerCount: 52342,
   followingCount: 6758,
   bio:
-    "Developer of web applications, JavaScript, PHP, Java, Python, Ruby, Java, Node.js, etc."
+    "Developer of web applications, JavaScript, PHP, Java, Python, Ruby, Java, Node.js, etc.",
+  footer: "I have no idea what this text is"
 };
 
 /*right side bar card content*/

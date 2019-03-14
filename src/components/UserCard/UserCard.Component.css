@@ -1,0 +1,22 @@
+.user-details-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  border-radius: 3px;
+  background: white;
+  padding: 10px;
+}
+
+.general-info {
+}
+
+.username {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.user-follow-div {
+  border-top: 1px solid gray;
+
+  flex-direction: column;
+}
