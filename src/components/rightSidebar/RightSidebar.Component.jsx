@@ -20,7 +20,6 @@ export default class RightSidebar extends Component {
 
   render() {
     const { cardData } = this.state;
-    console.log(cardData);
     return <div className="sidebar-width">{createCard(cardData)}</div>;
   }
 }
