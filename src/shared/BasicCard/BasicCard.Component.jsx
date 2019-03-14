@@ -30,8 +30,9 @@ BasicCard.propTypes = {
 
 const createLinks = linkArray => (
   <>
+    {console.log(linkArray)}
     {linkArray.map(link => (
-      <a href={link.href} key={link.name} className="card-links">
+      <a href={link.href} key={link.name} className="card-link">
         {link.name}
       </a>
     ))}

@@ -45,18 +45,22 @@ const rightSidebarCardData = [
     createdAt: 15523123123,
     title: "Card title",
     subtitle: "Card subtitle",
-    body:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam omnis nihil, aliquam est, voluptates officiis iure soluta alias vel odit, placeat reiciendis ut libero! Quas aliquid natus cumque quae repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, excepturi. Doloremque, reprehenderit! Quos in maiores, soluta doloremque molestiae reiciendis libero expedita assumenda fuga quae. Consectetur id molestias itaque facere? Hic!",
-    links: ["Card link", "Another link"]
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    links: [
+      { name: "Card link", href: "#" },
+      { name: "Another link", href: "#" }
+    ]
   },
   {
     id: 5512312,
     createdAt: 15523123123,
     title: "Card title",
     subtitle: "Card subtitle",
-    body:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam omnis nihil, aliquam est, voluptates officiis iure soluta alias vel odit, placeat reiciendis ut libero! Quas aliquid natus cumque quae repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, excepturi. Doloremque, reprehenderit! Quos in maiores, soluta doloremque molestiae reiciendis libero expedita assumenda fuga quae. Consectetur id molestias itaque facere? Hic!",
-    links: ["Card link", "Another link"]
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    links: [
+      { name: "Card link", href: "#" },
+      { name: "Another link", href: "#" }
+    ]
   }
 ];
 
