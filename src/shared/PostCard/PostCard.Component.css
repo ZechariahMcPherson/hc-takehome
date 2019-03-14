@@ -9,7 +9,6 @@
 .postCard-header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-content: center;
   height: 40px;
   border-bottom: 1px solid var(--border-color);
@@ -55,6 +54,7 @@
   color: blue;
   font-weight: bold;
   font-size: 20px;
+  margin-left: auto;
 }
 
 .post-body-time-created {
