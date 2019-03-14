@@ -8,7 +8,7 @@ export default class LeftSidebar extends Component {
     super(props);
 
     this.state = {
-      userDetails: []
+      userDetails: {}
     };
   }
 

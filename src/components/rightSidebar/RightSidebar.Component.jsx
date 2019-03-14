@@ -27,7 +27,7 @@ export default class RightSidebar extends Component {
 const createCard = cardArray => (
   <>
     {cardArray.map(card => (
-      <BasicCard cardDetails={card} />
+      <BasicCard key={card.id} cardDetails={card} />
     ))}
   </>
 );
