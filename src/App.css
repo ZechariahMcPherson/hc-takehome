@@ -1,3 +1,13 @@
+:root {
+  --border-color: darkgray;
+  --username-color: black;
+  --secondary-gray: #989898;
+  --font-x-small: 10px;
+  --font-x-small: 12px;
+
+  --font-medium: 14px;
+}
+
 .App {
   height: 100vh;
   position: relative;
@@ -10,17 +20,6 @@
   pointer-events: none;
 }
 
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
-
 .App-link {
   color: #61dafb;
 }
@@ -32,6 +31,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+a {
+  cursor: pointer;
+  font-size: inherit;
+  color: blue;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 .flex-container {
@@ -67,14 +78,8 @@
   font-size: 14px;
 }
 
-a {
-  cursor: pointer;
-  font-size: inherit;
-  color: blue;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-button {
-  cursor: pointer;
+.username-style {
+  color: var(--username-color);
+  font-size: 17px;
+  font-weight: bold;
 }

@@ -4,19 +4,37 @@
   margin-top: 40px;
   border-radius: 3px;
   background: white;
-  padding: 10px;
 }
 
 .general-info {
-}
-
-.username {
-  font-size: 17px;
-  font-weight: bold;
+  flex-direction: column;
+  padding-bottom: 10px;
+  padding: 10px;
 }
 
 .user-follow-div {
-  border-top: 1px solid gray;
+  border-top: 1px solid var(--border-color);
+  padding: 10px;
+}
 
-  flex-direction: column;
+.user-fullname {
+  color: var(--secondary-gray);
+  margin-bottom: 5px;
+}
+
+.user-bio {
+  margin-top: 10px;
+  font-size: var(--font-x-small);
+}
+
+.following-text {
+  color: var(--secondary-gray);
+  font-size: var(--font-medium);
+  margin-bottom: 5px;
+}
+
+.some-footer {
+  font-size: var(--font-x-small);
+  padding: 10px;
+  border-top: 1px solid var(--border-color);
 }

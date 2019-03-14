@@ -3,5 +3,5 @@
   align-items: center;
   padding: 0 0px 0 10px;
   bottom: 0;
-  border-top: 1px solid darkgray;
+  border-top: 1px solid var(--border-color);
 }

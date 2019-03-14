@@ -7,19 +7,21 @@ export default class UserCard extends Component {
     return (
       <div className="flex-container user-details-container">
         <div className="general-info">
-          <div className="username">@{this.props.userDetails.userName}</div>
-          <div>Fullname: {this.props.userDetails.fullName}</div>
-          <div>{this.props.userDetails.bio}</div>
+          @{this.props.userDetails.userName}
+          <div className="user-bio">
+            <div className="user-fullname">
+              Fullname: {this.props.userDetails.fullName}
+            </div>
+            <div>{this.props.userDetails.bio}</div>
+          </div>
         </div>
-
         <div className="user-follow-div">
-          <div>Followers</div>
+          <div className="following-text">Followers</div>
           <div>{this.props.userDetails.followerCount}</div>
         </div>
 
         <div className="user-follow-div">
-          <div>Following</div>
-
+          <div className="following-text">Following</div>
           <div>{this.props.userDetails.followingCount}</div>
         </div>
 

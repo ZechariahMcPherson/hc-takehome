@@ -12,7 +12,7 @@ export default class PostCard extends Component {
           <span className="profile-pic">?</span>
 
           <div className="poster-info">
-            <span className="username">
+            <span className="username-style">
               @{this.props.postDetails.author.userName}
             </span>
             <span className="full-name">
